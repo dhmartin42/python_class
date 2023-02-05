@@ -1,5 +1,5 @@
-# all() returns true if all values are truthy, which means if they are non-rmpty or non-zero
-
+# all() returns true if all values are truthy, which means 
+# # if they are non-rmpty or non-zero
 
 def valid_rgb2(rgb): # using a list comprehension
     '''recieves (r,g,b) tuple, 
@@ -20,7 +20,6 @@ def valid_rgb(rgb): #using a generator
         for val in rgb
     )
     
-
 def main():
     assert valid_rgb((25,5,225)) == True
     assert valid_rgb((255,255,255)) == True
